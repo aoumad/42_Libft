@@ -80,8 +80,26 @@ there are 2 sections:
 
 ### How do I use the library?
 
-==> Clone this repo and cd into it, make sure it's called `42_Libft`:
+1. Clone this repo and cd into it, make sure it's called `42_Libft`:
 		
 		git clone https://github.com/aoumad/42_Libft
 		cd 42_Libft/
-   		make
+   		- run `make` or `make libft` to compile `libft.a`
+		- run `make clean` to delete tmp files after compile (only `libft.a` will be remain)
+		- run `make fclean` to delete all files after compile
+		- run `make cmake` if you change any filename.c/h to update the configuration of build (and include new file)
+		- run `make re` to recompile all files
+2. Include
+
+		To use `libft` in you project:
+		- just `#include <libft.h>`
+		- compile you files with `-I /libft/includes` 
+		- compile `libft`
+		- link you binary with `-L /libft -lft`
+
+3. Debug
+
+		If you run `make` or `make libft`, the compiler will compile the library with the `-O3 -Wall -Wextra -Werror` flags for better code performance and 			strict error checking!
+		But if you want to debug some code, you probably want to ignore warnings and be able to use a debugger (lldb, gdb, etc.).
+		In that case
+		- run `make debug`
