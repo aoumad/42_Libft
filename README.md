@@ -2,8 +2,9 @@
 
 ### TOC
 * [What is libft?](#what-is-libft)
-* [What kind of functions should I implement?](#What-kind-of-functions-should-I-implement?)
+* [What kind of functions should I implement?](#what-kind-of-functions-should-i-implement)
 * [How do I use the library?](#how-do-i-use-the-library)
+* [How to test my project?](#how-to-test-my-project)
 
 ### What is libft?
 [Libft][1] is an individual project at [42][2] that requires us to re-create some standard C library functions including some additional ones that can be used later to build a library of useful functions for the rest of the program.
@@ -103,3 +104,11 @@ there are 2 sections:
 		But if you want to debug some code, you probably want to ignore warnings and be able to use a debugger (lldb, gdb, etc.).
 		In that case
 		- run `make debug`
+
+
+### How to test my project?
+
+* [jtoty/Libftest](https://github.com/jtoty/Libftest)
+* [alelievr/libft-unit-test](https://github.com/alelievr/libft-unit-test)
+* [Night-squad/libft-war-machine-v2019](https://github.com/Night-squad/libft-war-machine-v2019)
+* [t0mm4rx/libftdestructor](https://github.com/t0mm4rx/libftdestructor)
