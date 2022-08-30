@@ -16,19 +16,19 @@ there are 2 sections:
 1.  **Libc Functions:** Some of the standard C functions
 2.  **Bonus Functions:** Functions 42 deems will be useful for linked list manipulation
 
-Libc functions | Additional functions | Bonus Functions | Personal Functions
-:----------- | :-----------: | :-----------:
-memset		| ft_memalloc	| ft_lstnew
+Libc functions 				| Bonus Functions
+:----------- |
+memset		| ft_memalloc		| ft_lstnew
 bzero		| ft_memdel		| ft_lstdelon
 memcpy		| ft_strnew		| ft_lstdel  
 memccpy		| ft_strdel		| ft_lstadd  
 memmove		| ft_strclr		| ft_lstiter
-memchr		| ft_striter	| ft_lstmap
-memcmp		| ft_striteri	|
-strlen		| ft_strmap		|
-strdup		| ft_strmapi	|
-strcpy		| ft_strequ		|
-strncpy		| ft_strnequ	|
+memchr		| ft_striter		| ft_lstmap
+memcmp		| ft_striteri
+strlen		| ft_strmap
+strdup		| ft_strmap
+strcpy		| ft_strequ	
+strncpy		| ft_strnequ
 strcat		| ft_strsub		
 strlcat		| ft_strjoin	
 strchr		| ft_strtrim	
@@ -43,8 +43,8 @@ isdigit		| ft_putstr_fd
 isalnum		| ft_putendl_fd
 isascii		| ft_putnbr_fd
 isprint		| ft_isupper  
-toupper   | ft_putnstr
-tolower   | ft_lstaddback
+toupper   	| ft_putnstr
+tolower   	| ft_lstaddback
 
 ### How do I use the library?
 
@@ -52,4 +52,4 @@ tolower   | ft_lstaddback
 		
 		git clone https://github.com/aoumad/42_Libft
 		cd 42_Libft/
-    make
+   		make
